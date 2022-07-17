@@ -1,0 +1,105 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  
+  
+  /*Pozícionálás */
+  
+  .profile-card {
+    width: 480px;
+    max-width: calc(100vw - 10px);
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%
+  }
+  
+  .head, .links {
+    text-align: center;
+  }
+  
+  .head, .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  img {
+    width: 120px;
+    height: 120px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .profile-image {
+    margin-top: -60px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  .head, .about  {
+    margin-bottom: 10%
+  }
+  
+  .content {
+    padding: 5% 5%;
+  }
+  
+  .images {
+    margin-bottom: 8%;
+    margin-top: -10%;
+  }
+  
+  .art {
+    border-radius: 10%
+  }
+  
+  body {
+    background: url('https://fenyeslorand.hu/wp-content/uploads/2018/11/101_lorand_fenyes_rosette.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .profile-card {
+    background-color: hsla(0, 0%, 100%, .5);
+    border-radius: 4px;
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  }
+  
+  #profile {
+    padding: 1px;
+    background-color: #666;
+  }
+  
+  .head {
+    border-bottom: 3px solid black;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+  }
+  
+  body {
+    font-family: "Ibarra Real Nova", serif;
+    font-size: 25px;
+  }
+  
+  #contact {
+    margin-bottom: 10px;
+  }
